@@ -13,6 +13,7 @@ end
 get '/users/:id' do
     # "your personal page"
     @user = User.find(params[:id])
+    erb :'/users/show'
 end
 
 end
