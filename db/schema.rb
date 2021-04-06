@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 2021_04_06_122036) do
   create_table "orders", force: :cascade do |t|
     t.string "address"
     t.string "item"
-    t.integer "item_price"
+    t.integer "price"
     t.integer "total"
   end
 

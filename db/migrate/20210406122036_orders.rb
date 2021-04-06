@@ -3,7 +3,7 @@ class Orders < ActiveRecord::Migration[5.0]
     create_table :orders do |t|
       t.string :address
       t.string :item
-      t.integer :item_price
+      t.integer :price
       t.integer :total
     end
   end
